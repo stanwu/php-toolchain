@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# pytest cache
+.pytest_cache/
+
+# Build tracking (internal step markers)
+.built/
+
+# setuptools / pip build artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# macOS metadata
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Generated toolkit output
+action_plan.json
+report.html
